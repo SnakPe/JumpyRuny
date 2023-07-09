@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://cvmq2u76tinhh"]
+
+[node name="World" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 18.0
+offset_top = 12.0
+offset_right = 153.0
+offset_bottom = 38.0
+text = "This is za Warudo"
