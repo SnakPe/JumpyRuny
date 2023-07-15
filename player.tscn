@@ -1,9 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://bhs7uycojtxnt"]
+[gd_scene load_steps=3 format=3 uid="uid://bhs7uycojtxnt"]
 
+[ext_resource type="Script" path="res://player.gd" id="1_cxsb6"]
 [ext_resource type="Texture2D" uid="uid://c2ro5ixuo6cxq" path="res://aporedjpg_id_948091a8_b_bravo_w_1100_rm_sk-removebg-preview.png" id="1_e4sv6"]
 
 [node name="Player" type="CharacterBody2D"]
 position = Vector2(278, 191)
+script = ExtResource("1_cxsb6")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(34, 3)
