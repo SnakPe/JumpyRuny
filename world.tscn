@@ -1,10 +1,12 @@
-[gd_scene format=3 uid="uid://cvmq2u76tinhh"]
+[gd_scene load_steps=3 format=3 uid="uid://bkkoprks4cu4o"]
+
+[ext_resource type="PackedScene" uid="uid://cvmq2u76tinhh" path="res://Platform.tscn" id="1_hylrd"]
+[ext_resource type="PackedScene" uid="uid://bhs7uycojtxnt" path="res://player.tscn" id="2_8denu"]
 
 [node name="World" type="Node2D"]
 
-[node name="Label" type="Label" parent="."]
-offset_left = 18.0
-offset_top = 12.0
-offset_right = 153.0
-offset_bottom = 38.0
-text = "This is za Warudo"
+[node name="Platform" parent="." instance=ExtResource("1_hylrd")]
+position = Vector2(-14, -3)
+
+[node name="Player" parent="." instance=ExtResource("2_8denu")]
+position = Vector2(205, 281)
