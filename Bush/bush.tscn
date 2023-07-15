@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://c5o16ci0plwb1"]
+
+[ext_resource type="Texture2D" uid="uid://hjqpvwpfiq57" path="res://Bush/bushSprite.webp" id="1_uxttj"]
+
+[node name="bush" type="Node2D"]
+
+[node name="Bush Sprite" type="Sprite2D" parent="."]
+visibility_layer = 2
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_uxttj")

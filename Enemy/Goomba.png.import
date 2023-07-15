@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d0e75xqwp8lui"
-path="res://.godot/imported/d7300adb552de6e.png-40af4e1539e10d0192e5fbe99ba3389a.ctex"
+uid="uid://bxamo4hysqfcd"
+path="res://.godot/imported/Goomba.png-edf365bf382148c179f11d1d96e71d63.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://d7300adb552de6e.png"
-dest_files=["res://.godot/imported/d7300adb552de6e.png-40af4e1539e10d0192e5fbe99ba3389a.ctex"]
+source_file="res://Enemy/Goomba.png"
+dest_files=["res://.godot/imported/Goomba.png-edf365bf382148c179f11d1d96e71d63.ctex"]
 
 [params]
 

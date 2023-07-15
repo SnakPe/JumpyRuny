@@ -1,13 +1,28 @@
-[gd_scene load_steps=3 format=3 uid="uid://bkkoprks4cu4o"]
+[gd_scene load_steps=5 format=3 uid="uid://bkkoprks4cu4o"]
 
-[ext_resource type="PackedScene" uid="uid://cvmq2u76tinhh" path="res://Platform.tscn" id="1_hylrd"]
-[ext_resource type="PackedScene" uid="uid://bhs7uycojtxnt" path="res://player.tscn" id="2_8denu"]
+[ext_resource type="PackedScene" uid="uid://cvmq2u76tinhh" path="res://Platform/Platform.tscn" id="2_0a2ql"]
+[ext_resource type="PackedScene" uid="uid://bhs7uycojtxnt" path="res://Player/player.tscn" id="2_8denu"]
+[ext_resource type="PackedScene" uid="uid://jxxd8t6ak5cb" path="res://Enemy/Enemy.tscn" id="2_uostj"]
+[ext_resource type="PackedScene" uid="uid://c5o16ci0plwb1" path="res://Bush/bush.tscn" id="3_pvqh3"]
 
 [node name="World" type="Node2D"]
+light_mask = 0
 
-[node name="Platform" parent="." instance=ExtResource("1_hylrd")]
-position = Vector2(-14, -3)
+[node name="bush" parent="." instance=ExtResource("3_pvqh3")]
+position = Vector2(422, -91)
+
+[node name="bush2" parent="." instance=ExtResource("3_pvqh3")]
+position = Vector2(846, -86)
+
+[node name="Enemy" parent="." instance=ExtResource("2_uostj")]
+position = Vector2(1105, -58)
 
 [node name="Player" parent="." instance=ExtResource("2_8denu")]
-position = Vector2(150, 165)
+position = Vector2(113, -134)
 scale = Vector2(0.561538, 0.483719)
+
+[node name="Platform" parent="." instance=ExtResource("2_0a2ql")]
+position = Vector2(697, -1)
+
+[node name="Platform2" parent="." instance=ExtResource("2_0a2ql")]
+position = Vector2(2059, -102)

@@ -1,15 +1,15 @@
 [gd_scene load_steps=3 format=3 uid="uid://bhs7uycojtxnt"]
 
-[ext_resource type="Script" path="res://player.gd" id="1_cxsb6"]
-[ext_resource type="Texture2D" uid="uid://c2ro5ixuo6cxq" path="res://aporedjpg_id_948091a8_b_bravo_w_1100_rm_sk-removebg-preview.png" id="1_e4sv6"]
+[ext_resource type="Script" path="res://Player/player.gd" id="1_ta52s"]
+[ext_resource type="Texture2D" uid="uid://c2ro5ixuo6cxq" path="res://Player/aporedjpg_id_948091a8_b_bravo_w_1100_rm_sk-removebg-preview.png" id="2_du57f"]
 
 [node name="Player" type="CharacterBody2D"]
 position = Vector2(278, 191)
-script = ExtResource("1_cxsb6")
+script = ExtResource("1_ta52s")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(34, 3)
-texture = ExtResource("1_e4sv6")
+texture = ExtResource("2_du57f")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
 visible = false
